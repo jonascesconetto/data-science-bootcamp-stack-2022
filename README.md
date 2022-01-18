@@ -22,7 +22,9 @@
         */home/<seunome>/bootcampds*
 ### MySQL
 - Crie um container para o `banco de dados` usando docker
-   `docker run --name mysqlbd1 -e MYSQL_ROOT_PASSWORD=bootcamp -p "3307:3306" -d mysql`
+   ```PowerShell
+   docker run --name mysqlbd1 -e MYSQL_ROOT_PASSWORD=bootcamp -p "3307:3306" -d mysql
+   ```
 ### MINIO
 - Crie um container para o `data lake` usando docker
     `docker run --name minio -d -p 9000:9000 -p 9001:9001 -v "$PWD/datalake:/data" minio/minio server /data --console-address ":9001” `
