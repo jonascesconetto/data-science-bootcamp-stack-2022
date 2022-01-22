@@ -1,7 +1,5 @@
 # Bootcamp de Data Science da STACK - 2022
-
-## 🚀 Sobre
-[...]
+## Human Resource Analytics
 
 ## 💻 Principais Tecnologias, Softwares e Bibliotecas
 - Docker
